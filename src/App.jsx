@@ -7,6 +7,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useForm, ValidationError } from '@formspree/react';
 import IMAGES from './Images/Images';
+import { Analytics } from "@vercel/analytics/react";
 
 
 const sections = ['Intro', 'Projects', 'About', 'Contact'];
@@ -328,5 +329,6 @@ export default function App() {
         </footer>
       )}
     </div>
+    
   );
 }
