@@ -219,17 +219,18 @@ export default function App() {
             </div>
           </div>
           <div className="w-[70%] mx-auto">
-            <Carousel responsive={responsive} className="w-full">
-              {[...Array(8)].map((_, index) => (
-                <div key={index} className="flex">
-                  <img
-                    src={`src/Public/pic${index + 1}.png`}
-                    alt={`Image ${index + 1}`}
-                    className="w-full h-[300px] object-cover"
-                  />
-                </div>
-              ))}
-            </Carousel>
+          <Carousel responsive={responsive} className="w-full">
+  {Object.values(IMAGES).slice(1, 9).map((imageSrc, index) => (
+    <div key={index} className="flex">
+      <img
+        src={imageSrc}
+        alt={`Image ${index + 1}`}
+        className="w-full h-[300px] object-cover"
+      />
+    </div>
+  ))}
+</Carousel>
+
           </div>
 
           {/* Contact Form */}
