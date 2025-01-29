@@ -83,7 +83,7 @@ export default function App() {
     return (
       <div className="text-center">
         
-          <img src="Public/whiteicon.png"
+          <img src="/Public/catwalk.gif"
           alt="Cat walking"
           className="mx-auto h-50 w-50 cursor-pointer"
           onClick={handleClick}
