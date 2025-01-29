@@ -84,7 +84,7 @@ export default function App() {
     return (
       <div className="text-center">
         <img
-          src="catwalk.gif"
+          src="Images/catwalk.gif"
           alt="Cat walking"
           className="mx-auto h-50 w-50 cursor-pointer"
           onClick={handleClick}
@@ -222,7 +222,7 @@ export default function App() {
               {[...Array(8)].map((_, index) => (
                 <div key={index} className="flex">
                   <img
-                    src={`assets/Images/pic${index + 1}.png`}
+                    src={`Images/pic${index + 1}.png`}
                     alt={`Image ${index + 1}`}
                     className="w-full h-[300px] object-cover"
                   />
