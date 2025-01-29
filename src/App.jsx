@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useForm, ValidationError } from '@formspree/react';
-import catw from 'Images/catwalk.gif'
+import catw from 'Images/catwalk.gif';
 
 
 const sections = ['Intro', 'Projects', 'About', 'Contact'];
