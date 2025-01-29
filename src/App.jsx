@@ -79,7 +79,7 @@ export default function App() {
       }, 2000);
     };
     
-  
+  //added
     return (
       <div className="text-center">
         
