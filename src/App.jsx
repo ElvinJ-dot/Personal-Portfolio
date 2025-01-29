@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useForm, ValidationError } from '@formspree/react';
+import Images from 'assets/Images';
 
 
 const sections = ['Intro', 'Projects', 'About', 'Contact'];
