@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useForm, ValidationError } from '@formspree/react';
-import Images from 'assets/Images';
+
 
 
 const sections = ['Intro', 'Projects', 'About', 'Contact'];
@@ -85,7 +85,7 @@ export default function App() {
     return (
       <div className="text-center">
         <img
-          src="assets/Images/catwalk.gif"
+          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fcat-walking&psig=AOvVaw2rwsnC0oZIfn2fdo4xWEe3&ust=1738270583296000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDDl9bom4sDFQAAAAAdAAAAABAE"
           alt="Cat walking"
           className="mx-auto h-50 w-50 cursor-pointer"
           onClick={handleClick}
