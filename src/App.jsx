@@ -231,6 +231,8 @@ export default function App() {
     </div>
   ))}
 </Carousel>
+    <Analytics/>
+
 
           </div>
 
