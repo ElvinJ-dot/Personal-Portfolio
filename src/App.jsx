@@ -221,7 +221,7 @@ export default function App() {
               {[...Array(8)].map((_, index) => (
                 <div key={index} className="flex">
                   <img
-                    src={`Images/pic${index + 1}.png`}
+                    src={`Public/pic${index + 1}.png`}
                     alt={`Image ${index + 1}`}
                     className="w-full h-[300px] object-cover"
                   />
