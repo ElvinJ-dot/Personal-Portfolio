@@ -84,7 +84,7 @@ export default function App() {
     return (
       <div className="text-center">
         <img
-          src="./catwalk.gif"
+          src="https://unsplash.com/photos/a-cup-of-coffee-sitting-on-top-of-a-bed-next-to-a-window-M43h7IwSPcI"
           alt="Cat walking"
           className="mx-auto h-50 w-50 cursor-pointer"
           onClick={handleClick}
