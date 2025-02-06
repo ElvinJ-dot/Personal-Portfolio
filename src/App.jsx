@@ -186,18 +186,7 @@ export default function App() {
                       techused="React, Tailwind CSS, Vite, Framer Motion" 
                       link="#" 
                     />
-                    <ProjectCard 
-                      name="Tool Management System (School Project)" 
-                      description="A comprehensive tool management system for efficiently tracking and managing tools in a school or workshop. The system leverages database integration for inventory tracking, tool checkout/check-in, and a dynamic user interface." 
-                      techused="MySQL, PostgreSQL, SQL, PHP, HTML, CSS" 
-                      link="https://github.com/ElvinJ-dot/toolmanagementsystem" 
-                    />
-                    <ProjectCard 
-                    name="Bread Maker Ingredient Profiler (School Project)" 
-                    description="A Java application that profiles and manages ingredients for bread making. Users can input and store ingredients, track their quantities, and create customized bread recipes using a simple Java Swing interface." 
-                    techused="Java, Swing, MySQL" 
-                    link="https://github.com/ElvinJ-dot/Bread-Maker-Ingredient-Profiler" 
-                  />
+                    
 
 
 
